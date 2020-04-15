@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>mpController</servlet-name>
+        <servlet-class>com.fourth.controller.mpController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mpController</servlet-name>
+        <url-pattern>/mpController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>chartsCity</servlet-name>
+        <servlet-class>com.fourth.controller.chartsCity</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>chartsCity</servlet-name>
+        <url-pattern>/chartsCity</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchPage</servlet-name>
+        <servlet-class>com.fourth.controller.searchPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchPage</servlet-name>
+        <url-pattern>/searchPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cityLineCharts</servlet-name>
+        <servlet-class>com.fourth.controller.cityLineCharts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cityLineCharts</servlet-name>
+        <url-pattern>/cityLineCharts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cityAreaCharts</servlet-name>
+        <servlet-class>com.fourth.controller.cityAreaCharts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cityAreaCharts</servlet-name>
+        <url-pattern>/cityAreaCharts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>areaComCharts</servlet-name>
+        <servlet-class>com.fourth.controller.areaComCharts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>areaComCharts</servlet-name>
+        <url-pattern>/areaComCharts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>areaLineCharts</servlet-name>
+        <servlet-class>com.fourth.controller.areaLineCharts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>areaLineCharts</servlet-name>
+        <url-pattern>/areaLineCharts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>calcuPage</servlet-name>
+        <servlet-class>com.fourth.controller.calcuPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>calcuPage</servlet-name>
+        <url-pattern>/calcuPage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>jumpPredict</servlet-name>
+        <servlet-class>com.fourth.controller.jumpPredict</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jumpPredict</servlet-name>
+        <url-pattern>/jumpPredict</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getPredict</servlet-name>
+        <servlet-class>com.fourth.controller.getPredict</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getPredict</servlet-name>
+        <url-pattern>/getPredict</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getPreCharts</servlet-name>
+        <servlet-class>com.fourth.controller.getPreCharts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getPreCharts</servlet-name>
+        <url-pattern>/getPreCharts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>info_area</servlet-name>
+        <jsp-file>/WEB-INF/jsp/info_area.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>info_area</servlet-name>
+        <url-pattern>/info_area.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>info_city</servlet-name>
+        <jsp-file>/WEB-INF/jsp/info_city.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>info_city</servlet-name>
+        <url-pattern>/info_city.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>info_nei</servlet-name>
+        <jsp-file>/WEB-INF/jsp/info_nei.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>info_nei</servlet-name>
+        <url-pattern>/info_nei.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>predict</servlet-name>
+        <jsp-file>/WEB-INF/jsp/predict.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>predict</servlet-name>
+        <url-pattern>/predict.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>aboutus</servlet-name>
+        <jsp-file>/WEB-INF/jsp/aboutus.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>aboutus</servlet-name>
+        <url-pattern>/aboutus.jsp</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

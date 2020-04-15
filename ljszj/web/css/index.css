@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none
+}
+
+.clear {
+    clear: both
+}
+
+.menus {
+    width: 1300px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.menus ul {
+    width: 1300px;
+    border-bottom: 2px solid #ff9900;
+    position:relative;
+    float:left
+}
+
+.menus li{
+    float:left;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s
+}
+
+.menus li:nth-child(2){
+    color:#fff
+}
+.bg {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #ff9900;
+    z-index:-1;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    -o-transition:all .5s;
+    transition:all .5s
+}
+
+.tab{
+    width:1300px;
+    height:650px;
+    border:0px;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    color: #888;
+    font-weight:700;
+    display:none
+}
+
+.show{
+    display:block
+}
+
+.img{
+    width: 1300px;
+    height:650px;
+    opacity: 0.9;
+    position: relative;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    position: center;
+    padding-top: 20px;
+
+}
+
+
+.searchBox:after {content:""; clear:both; display:table}
+.searchBox form {
+    width: auto;
+    float: right;
+    margin-left:0px;
+}
+.searchBox input {
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 25px;
+    border-radius: 42px;
+    border: 2px solid #888888;
+    opacity: 0.5;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+.searchBox input:focus {
+    width: 350px;
+}
+.searchBox button {
+    width: 42px;
+    height: 50px;
+    background:none;
+    border: none;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    cursor: pointer;
+}
+.searchBox button:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    background-image: url("../images/search.png");
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    z-index: 4;
+
+}
+
+
+form {
+    position: relative;
+}
